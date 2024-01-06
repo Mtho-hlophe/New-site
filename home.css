@@ -90,6 +90,7 @@ img li:hover{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 #copyright p{
     margin: 40px 0px 40px 400px;
@@ -194,6 +195,11 @@ img li:hover{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-top: 20px;
+}
+#countdown {
+    font-size:3rem;
+    padding-left:55px;
 }
    
 }
