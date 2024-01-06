@@ -190,6 +190,13 @@ img li:hover{
     display: flex;
     margin-top: 40px;
     padding-left: 20px;
+
+    animation: introduction 4s;
+    animation-delay:1s;
+}
+@keyframes introduction {
+    from{margin-bottom: 40%;}
+    to{margin-bottom: 0px;}
 }
 .content1 h3{
     margin: 40px 10px;
@@ -208,6 +215,7 @@ img li:hover{
 }
 #welcome{
     margin: 40px 0px 40px 120px;
+    animation: introduction 4s;
 }
 .skills img {
     width: 60px;
