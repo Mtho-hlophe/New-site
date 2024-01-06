@@ -112,12 +112,13 @@ h4{
     font-size:3rem;
     padding-left:410px;
 }
-    .launch {
-        font-size:3rem;
-        padding-left:500px;
-        color:azure;
-        font-weight:600;
-    }
+.launch {
+    font-size:3rem;
+    padding-left:500px;
+    color:azure;
+    font-weight:600;
+    margin:50px;
+}
 
 /* media queries for mobile phone*/
 
@@ -210,8 +211,8 @@ img li:hover{
 }
 .launch {
     font-size:1.5rem;
-    padding-left:50px;
-    color:azure;
+    padding-left:80px;
+    color:blue;
     font-weight:600;
     margin:20px;
 }
