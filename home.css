@@ -59,7 +59,7 @@ img li:hover{
 }
 .vertical{
     width: 9px;
-    height: 200px;
+    height: 300px;
     background: linear-gradient(to top, red, green, blue);
     margin-right: 50px;
 }
@@ -119,11 +119,30 @@ h4{
     font-weight:600;
     margin:50px;
 }
+#profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.imageParagraph {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* media queries for mobile phone*/
 
 @media all and ( max-width: 380px ) {
 
+#profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.imageParagraph {
+    display: flex;
+    flex-direction: column;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -176,7 +195,7 @@ img li:hover{
 }
 .vertical{
     width: 6px;
-    height: 200px;
+    height: 270px;
     background: linear-gradient(to top, red, green, blue);
     margin-right: 10px;
 }
