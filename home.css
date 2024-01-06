@@ -191,8 +191,8 @@ img li:hover{
     margin-top: 40px;
     padding-left: 20px;
 
-    animation: introduction 4s;
-    animation-delay:1s;
+    animation: introduction 6s;
+    
 }
 @keyframes introduction {
     from{margin-bottom: 40%;}
