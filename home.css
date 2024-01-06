@@ -72,6 +72,11 @@ img li:hover{
 }
 #welcome{
     margin: 40px 0px 40px 420px;
+    animation: intro 4s;
+}
+@keyframes intro{
+    from{margin-bottom:40%;}
+    to{margin-bottom:0px;}
 }
 .skills img {
     width: 90px;
@@ -115,7 +120,7 @@ h4{
 }
 .launch {
     font-size:3rem;
-    padding-left:280px;
+    padding-left:310px;
     color:black;
     font-weight:600;
     margin:50px;
