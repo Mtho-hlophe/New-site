@@ -108,7 +108,16 @@ h4{
     color: blue;
     margin: 0px 0px 30px 18px;
 }
-
+#countdown {
+    font-size:3rem;
+    padding-left:410px;
+}
+    .launch {
+        font-size:3rem;
+        padding-left:500px;
+        color:azure;
+        font-weight:600;
+    }
 
 /* media queries for mobile phone*/
 
@@ -199,6 +208,12 @@ img li:hover{
     font-size:1.5rem;
     padding-left:55px;
 }
+    .launch {
+        font-size:1.5rem;
+        padding-left:70px;
+        color:azure;
+        font-weight:600;
+    }
    
 }
 
