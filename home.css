@@ -208,12 +208,13 @@ img li:hover{
     font-size:1.5rem;
     padding-left:55px;
 }
-    .launch {
-        font-size:1.5rem;
-        padding-left:70px;
-        color:azure;
-        font-weight:600;
-    }
+.launch {
+    font-size:1.5rem;
+    padding-left:50px;
+    color:azure;
+    font-weight:600;
+    margin:20px;
+}
    
 }
 
