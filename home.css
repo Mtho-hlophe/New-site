@@ -113,7 +113,7 @@ h4{
 
 /* media queries for mobile phone*/
 
-@media ( width < 400px ) {
+@media ( max-width: 380px ) {
 
 .header{
     display: flex;
