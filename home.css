@@ -20,15 +20,16 @@ h2{
     text-decoration: none;
 }
 ul li{
-    text-decoration: none;
+    text-decoration-style: none;
     list-style-type: none;
     padding: 5px 10px;
-    background-color:bisque; 
+    background-color:black; 
+    color:azure;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    background-color: beige;
     color: black;
 }
 
@@ -146,7 +147,7 @@ h4{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    background-color: beige;
     color: black;
     position: fixed;
     top: 0;
