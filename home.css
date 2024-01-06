@@ -111,12 +111,12 @@ h4{
 }
 #countdown {
     font-size:3rem;
-    padding-left:310px;
+    padding-left:250px;
 }
 .launch {
     font-size:3rem;
-    padding-left:400px;
-    color:azure;
+    padding-left:280px;
+    color:black;
     font-weight:600;
     margin:50px;
 }
