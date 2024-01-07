@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 #about {
     background: linear-gradient(to right, beige, azure);
