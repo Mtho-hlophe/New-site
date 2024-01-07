@@ -60,7 +60,7 @@ function showAboutOnly(){
         aboutDiv[0].style.opacity = '0'
         aboutDiv[0].style.position = 'absolute'
         } 
-        
+        ul.style.display = 'none'
 }
 
 homePageBtn.addEventListener('click', showHiddenDivs)
