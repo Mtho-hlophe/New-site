@@ -184,9 +184,8 @@ h4{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: beige;
-    color: black;
-    top: 0;
+    background-color: azure;
+    color: black;   
 }
 #copyright p{
     margin: 40px 0px 40px 130px;
