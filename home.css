@@ -4,7 +4,10 @@
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
 }
-
+#menu {
+    position:absolute;
+    opacity:0;
+}
 #homePage {
     margin: 80px 0px 0px 4px;
     background-color: blue;
@@ -29,11 +32,11 @@
     margin-right: 50px;
 }
 body{
-    background: beige;
+    background: #c7c6bf;
 }
 .container {
     width: 100%;
-    background-color: beige;
+    background-color: #c7c6bf;
 }
 h2 span{
     color: blue;
