@@ -28,11 +28,11 @@
     margin-right: 50px;
 }
 body{
-    background: grey;
+    background: beige;
 }
 .container {
     width: 100%;
-    background-color: grey;
+    background-color: beige;
 }
 h2 span{
     color: blue;
@@ -54,7 +54,7 @@ ul li{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    background-color: beige;
     color: black;
     margin: 10px 7px;
 }
@@ -76,7 +76,7 @@ img li:hover{
 .content1{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
-    background-color: beige;
+    background-color: #6f7872;
     display: flex;
     margin-top: 40px;
     padding: 5px 10px 5px 70px;
@@ -194,7 +194,7 @@ h4{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    background-color: beige;
     color: black;   
 }
 #copyright p{
