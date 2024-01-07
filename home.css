@@ -67,6 +67,7 @@ img li:hover{
     display: flex;
     margin-top: 40px;
     padding: 5px 10px 5px 70px;
+    border-radius:15px;
 }
 .content1 h3{
     margin: 40px 10px;
@@ -219,6 +220,7 @@ img li:hover{
     display: flex;
     margin-top: 40px;
     padding-left: 20px;
+    border-radius:15px;
 
     animation: introduction 6s;
     
