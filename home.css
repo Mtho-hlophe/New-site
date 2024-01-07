@@ -44,7 +44,7 @@ ul li{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: beige;
+    background-color: azure;
     color: black;
     margin: 10px 7px;
 }
@@ -113,6 +113,7 @@ img li:hover{
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    position:fixed;
 }
 #copyright p{
     margin: 40px 0px 40px 400px;
