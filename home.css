@@ -1,8 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Slabo 27px', serif;
 }
 #about {
     background: linear-gradient(to right, beige, azure);
@@ -38,7 +36,7 @@ ul li{
     padding: 5px 10px;
     background-color:black; 
     color:azure;
-}
+} 
 .header{
     display: flex;
     justify-content: space-between;
@@ -142,6 +140,17 @@ h4{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    animation: profile 5s reverse ;
+}
+@keyframes profile {
+    from{
+        opacity: .8;
+    }
+    to{
+        width: 120px;
+        height: 125px;
+        opacity: 0;
+    }
 }
 .imageParagraph {
     display: flex;
