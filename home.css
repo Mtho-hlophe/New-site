@@ -272,9 +272,10 @@ img li:hover{
 .skills img {
     width: 60px;
     height: 60px;
+    border-radius:50%;
 }
 .skills{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .footer{
     width: 100%;
@@ -315,7 +316,7 @@ ul{
     flex-direction:column;
     right:25px;
     display: none; 
-    margin-top:50px;
+    margin-top:58px;
 }
 #menu {
     width:40px;
