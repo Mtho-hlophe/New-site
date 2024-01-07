@@ -28,11 +28,11 @@
     margin-right: 50px;
 }
 body{
-    background: beige;
+    background: grey;
 }
 .container {
     width: 100%;
-    background-color: azure;
+    background-color: grey;
 }
 h2 span{
     color: blue;
