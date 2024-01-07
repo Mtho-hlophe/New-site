@@ -18,11 +18,11 @@
     margin-right: 50px;
 }
 body{
-    background: beige;
+    background: azure;
 }
 .container {
     width: 100%;
-    background-color: beige;
+    background-color: azure;
 }
 h2 span{
     color: blue;
@@ -66,7 +66,7 @@ img li:hover{
 .content1{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
-    background-color: azure;
+    background-color: beige;
     display: flex;
     margin-top: 40px;
     padding: 5px 10px 5px 70px;
