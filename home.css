@@ -311,7 +311,8 @@ ul{
     position: absolute;
     flex-direction:column;
     right:25px;
-    display: none;  
+    display: none; 
+    margin-top:50px;
 }
 #menu {
     width:40px;
