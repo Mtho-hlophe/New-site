@@ -4,6 +4,16 @@
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
 }
+#homePage {
+    margin: 80px 0px 0px 4px;
+    background-color: blue;
+    color:azure;
+    width:fit-content;
+    padding:10px 5px;
+    cursor:pointer;
+    border-radius:8px;
+    display:none;
+}
 #about {
     background: linear-gradient(to right, beige, azure);
     padding: 30px 20px;
