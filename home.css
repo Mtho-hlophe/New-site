@@ -38,6 +38,7 @@ ul li{
     padding: 5px 10px;
     background-color:black; 
     color:azure;
+    margin-left:10px;
 } 
 .header{
     display: flex;
@@ -48,7 +49,7 @@ ul li{
 
 ul {
     display: flex;
-    margin-left: 110px;    
+    margin-left: 90px;    
 }
 img li{
     width: 200px;
@@ -68,6 +69,7 @@ img li:hover{
     margin-top: 40px;
     padding: 5px 10px 5px 70px;
     border-radius:15px;
+    box-shadow: 5px 10px 15px grey;
 }
 .content1 h3{
     margin: 40px 10px;
