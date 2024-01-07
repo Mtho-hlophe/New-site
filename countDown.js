@@ -81,3 +81,15 @@ function showHiddenDivs() {
         aboutDiv[0].style.position = 'static'
         }
 }
+const menu = document.querySelector('#menu')
+const ul = document.querySelector('ul')
+
+menu.addEventListener('click', showUl)
+
+function showUl() {
+    if(ul.style.display === 'none') {
+        ul.style.display = 'block'
+    }else {
+        ul.style.display = 'none'
+    }
+}
