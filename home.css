@@ -73,7 +73,7 @@ img li:hover{
 }
 .vertical{
     width: 9px;
-    height: 460px;
+    height: 520px;
     background: linear-gradient(to top, red, green, blue);
     margin-right: 50px;
 }
