@@ -13,7 +13,7 @@
 }
 .vertical2{
     width: 20px;
-    height: 420px;
+    height: 350px;
     background: linear-gradient(to top, red, green, blue);
     margin-right: 50px;
 }
@@ -73,7 +73,7 @@ img li:hover{
 }
 .vertical{
     width: 9px;
-    height: 330px;
+    height: 400px;
     background: linear-gradient(to top, red, green, blue);
     margin-right: 50px;
 }
