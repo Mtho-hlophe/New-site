@@ -29,3 +29,55 @@
     }
 
     timer = setInterval(showRemaining, 1000);
+
+
+// Added new compatibility code to show and hide divs
+//when clicking the ABOUT button
+
+const aboutBtn = document.getElementById('aboutBtn');
+const skills = document.querySelector('.skills');
+let firstDiv = document.querySelector('.firstDiv');
+
+let h3Tags = document.querySelectorAll('h3');
+let homePageBtn = document.querySelector('#homePage')
+const footer = document.querySelector('.footer')
+const aboutDiv = document.querySelectorAll('.content1')
+
+aboutBtn.addEventListener('click', showAboutOnly)
+
+function showAboutOnly(){
+    
+       skills.style.display ='none'
+      // firstDiv.style.display = 'none'
+        
+        h3Tags.forEach(h3Tags=>{h3Tags.style.display = 'none'})
+        
+        footer.style.display = 'none'
+        homePageBtn.style.display = 'block'
+        
+        for(let i =0; i<aboutDiv.length; i++) {
+        aboutDiv[1].style.marginTop = '0px'
+        aboutDiv[0].style.opacity = '0'
+        aboutDiv[0].style.position = 'absolute'
+        } 
+        
+}
+
+homePageBtn.addEventListener('click', showHiddenDivs)
+
+function showHiddenDivs() {
+    
+        skills.style.display ='block'
+        //firstDiv.style.display = 'inline'
+        
+        h3Tags.forEach(h3Tags=>{h3Tags.style.display = 'block'})
+        
+        footer.style.display = 'block'
+        homePageBtn.style.display = 'none'
+        
+        for(let i =0; i<aboutDiv.length; i++) {
+        aboutDiv[1].style.marginTop = '40px'
+        aboutDiv[0].style.opacity = '1'
+        aboutDiv[0].style.position = 'static'
+        }
+}
