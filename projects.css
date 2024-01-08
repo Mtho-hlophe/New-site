@@ -1,17 +1,17 @@
 * {
     padding: 0;
-    overflow: hidden;
     margin: 0;
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
 }
 body {
-    background: #c7c6bf;
+    background: ;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 10px 0px 10px;
+.content1 {
+    display:flex;
+    justify-content:space-around;
+    margin:30px 1px;
+    overflow:hidden;
 }
 .projectTitles {
     display: flex;
@@ -22,18 +22,16 @@ body {
     font-size:2rem;
 }
 .projectImages {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 5px;
+     
 }
 .projectImages img {
-    width: 250px;
-    height: 250px;
+    width: 130px;
+    height: 130px;
     border-radius: 8px;
 }
 .backButton {
     padding: 10px 10px;
-    background-color: blue;
+    background-color: red;
     color: azure;
     font-size:1.5rem;
     width: fit-content;
@@ -42,27 +40,28 @@ body {
 
 /* media queries for mobile phones*/
 
-@media all and ( max-width : 380px ) {
+@media all and ( max-width : 401px ) {
 
 .container {
     padding: 30px 10px;
 }
+.content1{
+    flex-direction:column;
+}
 .projectTitles {
-    display: flex;
-    justify-content: space-between;
+    margin-left:35%;
     padding: 0px 5px;
 }    
 .projectTitles h3 {
     font-size:1rem;
 }
 .projectImages {
-    display: flex;
-    justify-content: space-between;
     padding: 20px 5px;
+    margin-left:19%;
 }
 .projectImages img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 8px;
 }
 .backButton {
