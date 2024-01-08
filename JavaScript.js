@@ -30,7 +30,17 @@ function boxClicked(e){
         } 
         // how to return a draw if no player won?
         
-        else if(spaces.length-1 !=== null  && playerHasWon() == false){
+        else {
+        
+        let falseBoolean = false
+        
+        for(let i=0; i<spaces.length; i++){
+           if(spaces[i] == null){
+               falseBoolean = true
+           }
+        }
+            
+          if(falseBoolean == false  && playerHasWon() == false){
         
            winMessage.innerText = 'DRAW'
            winMessage.style.opacity = '1'
@@ -38,6 +48,7 @@ function boxClicked(e){
            setTimeout(()=>{
                   playAgainMessage.style.opacity = '1' 
               },1500)
+        }
         }
            currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }
