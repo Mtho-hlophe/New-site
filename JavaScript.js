@@ -35,6 +35,7 @@ function boxClicked(e){
            setTimeout(()=>{
                   playAgainMessage.style.opacity = '1' 
               },1500)
+           }
         }      
         currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }        
