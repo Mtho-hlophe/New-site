@@ -174,7 +174,7 @@ h4{
    /* animation: profile 5s reverse ;*/
     margin-left:100px;
 }
-/*@keyframes profile {
+@keyframes profile {
     from{
         opacity: .8;
     }
@@ -183,7 +183,7 @@ h4{
         height: 125px;
         opacity: 0;
     }
-}*/
+}
 .imageParagraph {
     display: flex;
     flex-direction: column;
