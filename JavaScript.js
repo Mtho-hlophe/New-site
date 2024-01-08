@@ -27,7 +27,14 @@ function boxClicked(e){
             setTimeout(()=>{
                playAgainMessage.style.opacity = '1' 
             },1500)
-            
+          else if(spaces [(8)] !== null  && playerHasWon() == false){
+        
+           winMessage.innerText = 'DRAW'
+           winMessage.style.opacity = '1'
+           spaces.fill(' ')
+           setTimeout(()=>{
+                  playAgainMessage.style.opacity = '1' 
+              },1500)
         }      
         currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }        
