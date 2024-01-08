@@ -95,3 +95,9 @@ function showUl() {
 }
 ul.addEventListener('click', ()=>showUl)
 
+const projectsBtn = document.querySelector('#projectsBtn')
+
+projectsBtn.addEventListener('click', ()=>{
+    window.open('https://gubevu.netlify.app/projects')
+})
+    
