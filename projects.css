@@ -6,7 +6,7 @@
     font-family: 'Slabo 27px', serif;
 }
 body {
-    background: azure;
+    background: #c7c6bf;
 }
 .container {
     display: flex;
@@ -42,7 +42,7 @@ body {
 
 /* media queries for mobile phones*/
 
-@media ( width < 380px ) {
+@media all and ( max-width : 380px ) {
 
 .container {
     padding: 30px 10px;
