@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+img {
+    width:100%;
+    height: 60px;
+}
+body {
+    background-color: #1d3345;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    background-color:#1d3345;
+}
+.resetBtn {
+    height:fit-content;
+    margin: 30px 0px;
+    padding:10px;
+    background-color:red;
+    color:azure;
+    border: none;
+    border-radius:5px;
+    transition:2s?
+}
+.resetBtn:hover{
+    padding:12px;
+    background-color: tomato;
+}
+.game{
+    padding: 25px 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.row{
+    display:flex;
+}
+
+.box{         
+    padding:5px;
+    width:50px;
+    height:50px; 
+    border: 1px solid black; 
+    font-size: 2.5rem;      
+    font-weight: 800; 
+    align-text:center ;  
+    justify-content:center;  
+    display:flex;
+}
+#displayMessage {
+    background-color:grey;
+    border-radius:5px;
+    color: green;
+    font-weight:700;
+    overflow:hidden;
+    padding:5px 0px 5px 4px;
+    opacity:0;
+}
+#displayMessage2 {
+    height:fit-content;
+    margin: 30px 0px;
+    padding:10px;
+    background-color:blue;
+    color:azure;
+    border: none;
+    border-radius:5px;
+    opacity:0;
+}
+
+/* adding media queries for mobile devices*/
+
+@media all and (max-width : 380px){
+    
+    .container{
+        flex-direction:column;
+    }
+    .game{
+        padding:50px 0px 0px 50px;
+    }
+    .box{
+        width:75px;
+        height:75px;
+    }
+    body{
+        background-color: #1d3345;
+    }
+    #buttons {
+        display:flex;
+        justify-content:space-between;
+    }
+    #displayMessage {
+        height: fit-content;
+        margin-top:29px;
+        padding: 9px 5px;
+    }
+    img {
+        height:75;
+    }
+}
