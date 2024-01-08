@@ -18,6 +18,9 @@
     border-radius:8px;
     display:none;
 }
+ul a {
+    text-decoration:none;
+}
 #about {
     background: linear-gradient(to right, azure, azure);
     padding: 30px 20px;
