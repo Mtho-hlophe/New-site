@@ -28,7 +28,8 @@ function boxClicked(e){
                playAgainMessage.style.opacity = '1' 
             },1500)
         } 
-        else if(spaces(9)!== null  && playerHasWon() == false){
+            // how to return a draw if no player won?
+        /*else if(spaces(9) = null  && playerHasWon() == false){
         
            winMessage.innerText = 'DRAW'
            winMessage.style.opacity = '1'
@@ -36,10 +37,10 @@ function boxClicked(e){
            setTimeout(()=>{
                   playAgainMessage.style.opacity = '1' 
               },1500)
-        }
-           
+        }*/
+           currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }
-    currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
+    
 };
 
 //XPLAYER.style.backgroundColor = 'tomato'
