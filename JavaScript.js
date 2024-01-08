@@ -30,7 +30,7 @@ function boxClicked(e){
         } 
         // how to return a draw if no player won?
         
-        else if(spaces.length-1 !== null  && playerHasWon() == false){
+        else if(spaces.length-1 !=== null  && playerHasWon() == false){
         
            winMessage.innerText = 'DRAW'
            winMessage.style.opacity = '1'
