@@ -34,7 +34,6 @@ body {
     display:flex;
     flex-direction: column;
     justify-content:center;
-    
 }
 .row{
     display:flex;
@@ -47,9 +46,10 @@ body {
     border: 2px solid white ; 
     font-size: 2.5rem;      
     font-weight: 800; 
-    align-text:center ;  
+    align-content:center ;  
     justify-content:center;  
     display:flex;
+    color:red;
 }
 #displayMessage {
     background-color:grey;
