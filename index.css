@@ -50,7 +50,6 @@ body {
     align-text:center ;  
     justify-content:center;  
     display:flex;
-    color:red;
 }
 #displayMessage {
     background-color:grey;
