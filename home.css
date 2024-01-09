@@ -173,7 +173,8 @@ h4{
 }
 #countdown {
     font-size:3rem;
-    margin-left:32%;
+    margin-left:38%;
+    color:red;
 }
 .launch {
     font-size:3rem;
