@@ -99,18 +99,22 @@ let countO = 0
 let countX = 0
 let countDraw = 0
 
-const countDisplayO = document.getElementById('countO')
-const countDisplayX = document.getElementById('countX')
-const draw = document.querySelector('#draw')
+const countDisplayO = document.querySelectorAll('#countO')
+const countDisplayX = document.querySelectorAll('#countX')
+const draw = document.querySelectorAll('#draw')
 
 function countUp(){
     if(playerHasWon() !== false && currentPlayer == OPLAYER){
     countO += 1
-    countDisplayO.innerText = `O = ${countO}`
+    countDisplayO.forEach( countDisplayO =>{
+        countDisplayO.innerText = `O = ${countO}`
+    });
     }
     else if(playerHasWon() !== false && currentPlayer == XPLAYER){
     countX += 1
-    countDisplayX.innerText = `X = ${countX}`
+    countDisplayX.forEach( countDisplayX =>{
+        countDisplayX.innerText = `X = ${countX}`
+    });
     }
     
 }
