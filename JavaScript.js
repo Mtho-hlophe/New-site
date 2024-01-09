@@ -28,10 +28,8 @@ function boxClicked(e){
                playAgainMessage.style.opacity = '1' 
             },1500)
         } 
-        // how to return a draw if no player won?
-        
+        // giving draw results 
         else {
-        
         let falseBoolean = false
         
         for(let i=0; i<spaces.length; i++){
@@ -50,7 +48,9 @@ function boxClicked(e){
               },1500)
         }
         }
-           currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
+        countUp()
+        drawFunc()
+        currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }
     
 };
@@ -92,3 +92,36 @@ function resetFunc(){
     boxes.forEach(boxes => boxes.innerText = '')
 }
 playAgainMessage.addEventListener('click', resetFunc)
+
+//count script 
+
+let countO = 0
+let countX = 0
+let countDraw = 0
+
+const countDisplayO = document.getElementById('countO')
+const countDisplayX = document.getElementById('countX')
+const draw = document.querySelector('#draw')
+
+function countUp(){
+    if(playerHasWon() !== false && currentPlayer == OPLAYER){
+    countO += 1
+    countDisplayO.innerText = `O = ${countO}`
+    }
+    else if(playerHasWon() !== false && currentPlayer == XPLAYER){
+    countX += 1
+    countDisplayX.innerText = `X = ${countX}`
+    }
+    
+}
+
+function drawFunc() {
+
+    if( winMessage.innerText == 'DRAW' && currentPlayer == XPLAYER){
+    countDisplayX.innerText = `X = ${countX-1}`
+    }
+    else if( winMessage.innerText == 'DRAW' && currentPlayer == OPLAYER){
+    countDisplayO.innerText = `O = ${countO-1}`
+    }   
+}
+                
