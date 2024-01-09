@@ -102,7 +102,7 @@ img li:hover{
 }
 .vertical{
     width: 9px;
-    height: 520px;
+    height: 410px;
     background: linear-gradient(to top, red, green, blue);
     margin-right: 50px;
 }
