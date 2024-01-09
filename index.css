@@ -75,9 +75,11 @@ body {
         display:flex;
         flex-direction: column;
     }
-    /*h1 {
-        margin-left: 40%;
-    }*/
+    h1 {
+        margin-left: 30px;
+        color: grey;
+        font-size:4rem;
+    }
     .subScoreDiv div {
         font-size:4rem;
         font-weight:700;
