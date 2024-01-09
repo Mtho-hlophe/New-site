@@ -118,10 +118,12 @@ function countUp(){
 function drawFunc() {
 
     if( winMessage.innerText == 'DRAW' && currentPlayer == XPLAYER){
-    countDisplayX.innerText = `X = ${countX-1}`
+    countX -= 1  
+    countDisplayX.innerText = `X = ${countX}`
     }
     else if( winMessage.innerText == 'DRAW' && currentPlayer == OPLAYER){
-    countDisplayO.innerText = `O = ${countO-1}`
+    countO -= 1
+    countDisplayO.innerText = `O = ${countO}`
     }   
 }
                 
