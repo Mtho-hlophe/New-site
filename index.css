@@ -14,6 +14,7 @@ body {
     display:flex;
     justify-content:space-between;
     background-color:#1d3345;
+    align-items:center;
 }
 .resetBtn {
     height:fit-content;
@@ -24,6 +25,7 @@ body {
     border: none;
     border-radius:5px;
     transition:2s?
+    font-size:2.5rem;
 }
 .resetBtn:hover{
     padding:12px;
@@ -60,6 +62,7 @@ body {
     overflow:hidden;
     padding:5px 0px 5px 4px;
     opacity:0;
+    font-size:2.5rem;
 }
 #displayMessage2 {
     height:fit-content;
@@ -70,6 +73,7 @@ body {
     border: none;
     border-radius:5px;
     opacity:0;
+    font-size:2.5rem;
 }
 .subScoreDiv2{
         display:flex;
@@ -96,6 +100,7 @@ body {
     
     .container{
         flex-direction:column;
+        font-size:1rem;
     }
     .game{
         padding:50px 0px 0px 50px;
@@ -115,6 +120,10 @@ body {
         height: fit-content;
         margin-top:29px;
         padding: 9px 5px;
+        font-size:1rem;
+    }
+    #displayMessage{
+        font-size:1rem;
     }
     img {
         height:75;
