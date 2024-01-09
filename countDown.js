@@ -80,7 +80,7 @@ function showHiddenDivs() {
         //aboutDiv[0].style.opacity = '1'
         aboutDiv[0].style.display = 'flex'
         }
-        showUl()
+        //showUl()
 }
 const menu = document.querySelector('#menu')
 const ul = document.querySelector('ul')
