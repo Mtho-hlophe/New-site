@@ -57,17 +57,17 @@ function showAboutOnly(){
         
         for(let i =0; i<aboutDiv.length; i++) {
         aboutDiv[1].style.marginTop = '0px'
-        aboutDiv[0].style.opacity = '0'
-        aboutDiv[0].style.position = 'absolute'
+        //aboutDiv[0].style.opacity = '0'
+        aboutDiv[0].style.display = 'none'
         } 
-        ul.style.display = 'none'
+        //ul.style.display = 'none'
 }
 
 homePageBtn.addEventListener('click', showHiddenDivs)
 
 function showHiddenDivs() {
     
-        skills.style.display ='block'
+        skills.style.display ='flex'
         //firstDiv.style.display = 'inline'
         
         h3Tags.forEach(h3Tags=>{h3Tags.style.display = 'block'})
@@ -77,9 +77,10 @@ function showHiddenDivs() {
         
         for(let i =0; i<aboutDiv.length; i++) {
         aboutDiv[1].style.marginTop = '40px'
-        aboutDiv[0].style.opacity = '1'
-        aboutDiv[0].style.position = 'static'
+        //aboutDiv[0].style.opacity = '1'
+        aboutDiv[0].style.display = 'flex'
         }
+        showUl()
 }
 const menu = document.querySelector('#menu')
 const ul = document.querySelector('ul')
@@ -88,7 +89,7 @@ menu.addEventListener('click', showUl)
 
 function showUl() {
     if(ul.style.display === 'none') {
-        ul.style.display = 'block'
+        ul.style.display = 'flex'
     }else {
         ul.style.display = 'none'
     }
