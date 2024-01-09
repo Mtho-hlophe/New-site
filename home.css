@@ -137,6 +137,7 @@ img li:hover{
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    position:fixed;
 }
 #copyright p{
     margin: 40px 0px 40px 41%;
@@ -158,11 +159,11 @@ h4{
 }
 #countdown {
     font-size:3rem;
-    margin-left:23%;
+    margin-left:32%;
 }
 .launch {
     font-size:3rem;
-    padding-left:310px;
+    margin-left:38%;
     color:black;
     font-weight:600;
     margin:50px;
