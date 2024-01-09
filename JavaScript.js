@@ -48,8 +48,8 @@ function boxClicked(e){
               },1500)
         }
         }
-        countUp()
         drawFunc()
+        countUp()
         currentPlayer = currentPlayer == XPLAYER? OPLAYER:XPLAYER
     }
     
