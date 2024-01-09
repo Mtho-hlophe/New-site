@@ -85,6 +85,10 @@ body {
         font-weight:700;
         padding:20px 40px;
     }
+.score{
+    display:none;
+}
+
 
 /* adding media queries for mobile devices*/
 
@@ -128,6 +132,11 @@ body {
         font-weight:700;
         padding:10px 30px;
     }
-
+    .score2{
+        display:none;
+    }
+    .score{
+        display:block;
+    }
     
 }
