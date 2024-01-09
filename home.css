@@ -313,9 +313,8 @@ img li:hover{
 }
 .launch {
     font-size:1.5rem;
-    margin-left:34%;
+    margin: 20px 20px 20px 34%;
     font-weight:600;
-    margin:20px;
 }
 .vertical2{
     width: 15px;
