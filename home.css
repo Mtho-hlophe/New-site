@@ -32,8 +32,7 @@ ul a {
     background: linear-gradient(to right, azure, azure);
     padding: 30px 20px;
     border-radius: 15px;
-    margin-right: 35px; 
-    margin-bottom: 25px;
+    margin: 70px 40px 10px 5px;
 }
 #about3 {
     background: linear-gradient(to right, azure, azure);
@@ -309,12 +308,12 @@ img li:hover{
 }
 #countdown {
     font-size:1.5rem;
-    padding-left:55px;
+    margin-left:37%;
+    color:red:
 }
 .launch {
     font-size:1.5rem;
     padding-left:80px;
-    color:blue;
     font-weight:600;
     margin:20px;
 }
