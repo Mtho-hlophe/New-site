@@ -25,7 +25,15 @@ ul a {
     padding: 30px 20px;
     border-radius: 15px;
     margin-right: 15px; 
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
+    display:none;
+}
+#about2{
+    background: linear-gradient(to right, azure, azure);
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-right: 15px; 
+    margin-bottom: 25px;
 }
 .vertical2{
     width: 20px;
@@ -331,6 +339,9 @@ ul{
     right:7px;
     
 }
+    #about2 {
+        display: none;
+    }
     
    
 }
