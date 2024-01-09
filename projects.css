@@ -5,7 +5,7 @@
     font-family: 'Slabo 27px', serif;
 }
 body {
-    background: ;
+    background: #c7c6bf;
 }
 .content1 {
     display:flex;
@@ -71,6 +71,7 @@ body {
     font-size: 1rem;
     width: fit-content;
     border-radius:0px 5px 5px 5px ;
+    position:fixed;
 }
     
 }
