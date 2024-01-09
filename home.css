@@ -89,7 +89,7 @@ img li{
     height: 200px;
     left: 0;
     border-radius:10px;
-    m
+    
 }
 img li:hover{
     width: 220px;
@@ -339,6 +339,9 @@ ul{
     right:7px;
     
 }
+    #about {
+        display:block;
+    }
     #about2 {
         display: none;
     }
