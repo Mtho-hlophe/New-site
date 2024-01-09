@@ -107,6 +107,7 @@ body {
     }
     .game{
         padding:50px 0px 0px 50px;
+        margin:0px;
     }
     .box{
         width:75px;
@@ -118,6 +119,8 @@ body {
     #buttons {
         display:flex;
         justify-content:space-between;
+    }.resetBtn{
+        font-size:1rem;
     }
     #displayMessage {
         height: fit-content;
@@ -125,7 +128,7 @@ body {
         padding: 9px 5px;
         font-size:1rem;
     }
-    #displayMessage{
+    #displayMessage2{
         font-size:1rem;
     }
     img {
