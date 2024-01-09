@@ -25,8 +25,8 @@ body {
      
 }
 .projectImages img {
-    width: 210px;
-    height: 210px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
 }
 .backButton {
