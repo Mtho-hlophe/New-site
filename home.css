@@ -142,6 +142,8 @@ img li:hover{
     display: flex;
     justify-content: space-around;
     margin-left: 20px;
+    background-color:azure;
+    border-radius:10px;
 }
 .footer{
     width: 100%;
