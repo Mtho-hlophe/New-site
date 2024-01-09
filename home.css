@@ -171,7 +171,7 @@ h4{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-   /* animation: profile 5s reverse ;*/
+    animation: profile 5s reverse ;
     margin-left:100px;
 }
 @keyframes profile {
