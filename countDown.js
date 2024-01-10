@@ -85,7 +85,7 @@ function showHiddenDivs() {
 const menu = document.querySelector('#menu')
 const ul = document.querySelector('ul')
 
-menu.addEventListener('click', showUl)
+/*menu.addEventListener('click', showUl)
 
 function showUl() {
     if(ul.style.display === 'none') {
@@ -93,7 +93,7 @@ function showUl() {
     }else {
         ul.style.display = 'none'
     }
-}
+}*/
 ul.addEventListener('click', ()=>showUl)
 
 const projectsBtn = document.querySelector('#projectsBtn')
