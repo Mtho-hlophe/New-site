@@ -29,7 +29,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    box-shadow: 10px 10px 8px black;
+    box-shadow: 8px 8px 3px grey:
 }
 .projectImages img:hover {
     padding:5px;
