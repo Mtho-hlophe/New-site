@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="welcome">
+        <button onclick="gameContent(), game()">start game</button>
+        <br>
+        <button onclick="toggleGameRules()">about game</button>
+        <div id="rules">
+            <h3>Rules of the game</h3>
+            <p>
+                The game is made out of the hunting logic, the rabbit is being 
+                hunted by three dogs. This
+                game is a two player game, one player must be the rabbit, and 
+                the other player be the dogs!
+            </p>
+            <h3>Movement rules</h3>
+            <p>
+                The rabbit is the first to move! <br>
+                Players can move in any direction but one block at a time, and 
+                a player cannot jump boxes.<br> The rabbit can slip through the dogs 
+                by moving diagonally
+                
+                <img src="" alt="">
+                
+                The dogs can only catch the Rabbit by trapping it into a corner
+                whereby every movement the rabbit has is straight forward to the
+                dog's block!
+            </p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
