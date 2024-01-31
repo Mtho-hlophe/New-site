@@ -14,7 +14,7 @@ body {
     justify-content:space-around;
     margin:30px 1px;
     overflow:hidden;
-    wrap:wrap;
+    flex-wrap:wrap;
 }
 .content1 p {
     color: white;
