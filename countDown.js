@@ -86,7 +86,7 @@ projectsBtn.addEventListener('click', ()=>{
 
 const bodyy = document.querySelector('body')
 
-bodyy.addEventListener('click', mizeMenu)
+//bodyy.addEventListener('click', mizeMenu)
 
 function mizeMenu(e) {
     if(e.target == menu && ul.style.display === 'none' || ul.style.display === '' ){
