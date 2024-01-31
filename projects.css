@@ -16,9 +16,17 @@ body {
     overflow:hidden;
     wrap:wrap;
 }
+.content1 p {
+    color: white;
+}
+.content1 button {
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: blue;
+}
 .projectTitles {
-    display: flex;
-    justify-content: space-between;
     padding: 0px 5px;
 }
 .projectTitles h3 {
