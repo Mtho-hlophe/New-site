@@ -47,31 +47,23 @@ aboutBtn.addEventListener('click', showAboutOnly)
 
 function showAboutOnly(){
     
-       skills.style.display ='none'
-      // firstDiv.style.display = 'none'
-        
+        skills.style.display ='none'
         h3Tags.forEach(h3Tags=>{h3Tags.style.display = 'none'})
-        
         footer.style.display = 'none'
         homePageBtn.style.display = 'block'
         
         for(let i =0; i<aboutDiv.length; i++) {
         aboutDiv[1].style.marginTop = '0px'
-        //aboutDiv[0].style.opacity = '0'
         aboutDiv[0].style.display = 'none'
         } 
-        //ul.style.display = 'none'
 }
 
 homePageBtn.addEventListener('click', showHiddenDivs)
 
 function showHiddenDivs() {
     
-        skills.style.display ='flex'
-        //firstDiv.style.display = 'inline'
-        
-        h3Tags.forEach(h3Tags=>{h3Tags.style.display = 'block'})
-        
+        skills.style.display ='flex' 
+        h3Tags.forEach(h3Tags=>{h3Tags.style.display = 'block'})    
         footer.style.display = 'block'
         homePageBtn.style.display = 'none'
         
@@ -80,22 +72,12 @@ function showHiddenDivs() {
         //aboutDiv[0].style.opacity = '1'
         aboutDiv[0].style.display = 'flex'
         }
-        //showUl()
+        if (ul.style.display !== 'flex') {
+            ul.style.display = 'flex'
+        }
 }
 const menu = document.querySelector('#menu')
 const ul = document.querySelector('ul')
-
-/*menu.addEventListener('click', showUl)
-
-function showUl() {
-    if(ul.style.display === 'none') {
-        ul.style.display = 'flex'
-    }else {
-        ul.style.display = 'none'
-    }
-}*/
-ul.addEventListener('click', ()=>showUl)
-
 const projectsBtn = document.querySelector('#projectsBtn')
 
 projectsBtn.addEventListener('click', ()=>{
