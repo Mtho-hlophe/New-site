@@ -8,6 +8,7 @@ body {
     background-image: url('images - 2024-01-11T065344.404.jpeg');
     background-size: cover;
     background-position:center
+    color: white;
 }
 .content1 {
     display:flex;
@@ -23,9 +24,6 @@ body {
 }
 .projectTitles h3 {
     font-size:2rem;
-}
-.projectImages {
-     
 }
 .projectImages img {
     width: 300px;
