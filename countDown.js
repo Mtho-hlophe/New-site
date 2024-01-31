@@ -95,6 +95,9 @@ function mizeMenu(e) {
     else if (e.target == menu && ul.style.display === 'flex') {
         ul.style.display = 'none' 
     }
+    else if ( screen.width > 600px ) {
+        ul.style.display = 'flex'
+    }
     else {
         ul.style.display = 'none'
     }
