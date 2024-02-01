@@ -34,8 +34,8 @@ body {
     color: white;
 }
 .projectImages {
-    width: 100px;
-    height:100px;
+    width: 100%;
+    height:30%;
 }
 .projectImages img {
     width: 100%;
