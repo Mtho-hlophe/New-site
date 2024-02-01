@@ -53,3 +53,22 @@ body {
 
 /* media queries for mobile phones*/
 
+@media all and ( max-width : 450px ) {
+
+
+.content1 p {
+    height:200px;
+}
+.projectTitles {
+    margin-left:35%;
+    padding: 0px 5px;
+}    
+.projectTitles h3 {
+    font-size:.7rem;
+}
+.backButton {
+    font-size: 1rem;
+    position:fixed;
+}
+    
+}
