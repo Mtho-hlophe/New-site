@@ -17,6 +17,7 @@ body {
 .content1 p {
     color: white;
     height:300px;
+    display: none;
     overflow: scroll;
 }
 .content1 button {
@@ -63,6 +64,7 @@ body {
 }
 .content1 p {
     height:200px;
+    display: none;
 }
 
 }
@@ -76,6 +78,7 @@ body {
 }
 .content1 p {
     height:200px;
+    display:none;
 }   
 .projectTitles h3 {
     font-size:.9rem;
