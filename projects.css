@@ -62,8 +62,9 @@ body {
     flex-direction:column;
 }
 .content1 p {
-    width: 100%;
-    height:fit-content;
+    width: fit-content;
+    height:200px;
+    overflow:scroll;
 }
 .projectTitles {
     margin-left:35%;
