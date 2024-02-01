@@ -53,27 +53,3 @@ body {
 
 /* media queries for mobile phones*/
 
-@media all and ( max-width : 401px ) {
-
-.container {
-    padding: 30px 10px;
-}
-.content1 p {
-    height:200px;
-}
-.projectTitles {
-    margin-left:35%;
-    padding: 0px 5px;
-}    
-.projectTitles h3 {
-    font-size:1rem;
-}
-.projectImages img {
-    border-radius: 8px;
-}
-.backButton {
-    font-size: 1rem;
-    position:fixed;
-}
-    
-}
