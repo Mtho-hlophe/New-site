@@ -18,6 +18,9 @@ body {
 }
 .content1 p {
     color: white;
+    width: 50%;
+    height:300px;
+    overflow: scroll;
 }
 .content1 button {
     color: white;
@@ -60,6 +63,10 @@ body {
 }
 .content1{
     flex-direction:column;
+}
+.content1 p {
+    width: 100%;
+    height:fit-content;
 }
 .projectTitles {
     margin-left:35%;
