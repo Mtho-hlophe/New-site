@@ -86,13 +86,13 @@ projectsBtn.addEventListener('click', ()=>{
 
 const bodyy = document.querySelector('body')
 
-bodyy.addEventListener('click', mizeMenu)
+menu.addEventListener('click', mizeMenu)
 
 function mizeMenu(e) {
-    if(e.target == menu && ul.style.display === 'none' || ul.style.display === '' ){
+    if( ul.style.display === 'none' || ul.style.display === '' ){
         ul.style.display = 'flex'
     }
-    else if (e.target == menu && ul.style.display === 'flex') {
+    else if ( ul.style.display === 'flex') {
         ul.style.display = 'none' 
     }
 }
