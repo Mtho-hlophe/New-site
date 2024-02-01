@@ -68,13 +68,7 @@ body {
 .projectTitles h3 {
     font-size:1rem;
 }
-.projectImages {
-    padding: 20px 5px;
-    margin-left:19%;
-}
 .projectImages img {
-    width: 200px;
-    height: 200px;
     border-radius: 8px;
 }
 .backButton {
