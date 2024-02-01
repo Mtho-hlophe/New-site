@@ -60,17 +60,17 @@ body {
 }
 .content1 p {
     height:200px;
-}
-.projectTitles {
-    margin-left:35%;
-    padding: 0px 5px;
-}    
+}   
 .projectTitles h3 {
-    font-size:.7rem;
+    font-size:.9rem;
 }
 .backButton {
     font-size: 1rem;
-    position:fixed;    
+    position:fixed; 
+    top:0;
 }
+ .content1 button{
+    paddding:2px;    
+ }
     
 }
