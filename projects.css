@@ -55,7 +55,9 @@ body {
 
 @media all and ( max-width : 450px ) {
 
-
+.content1 {
+    margin:30px 1px;
+}
 .content1 p {
     height:200px;
 }
@@ -68,7 +70,7 @@ body {
 }
 .backButton {
     font-size: 1rem;
-    position:fixed;
+    position:fixed;    
 }
     
 }
