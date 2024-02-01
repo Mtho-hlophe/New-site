@@ -11,9 +11,7 @@ body {
 }
 .content1 {
     display:flex;
-    justify-content:space-around;
     margin:30px 1px;
-    overflow:hidden;
     flex-wrap:wrap;
 }
 .content1 p {
