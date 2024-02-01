@@ -12,7 +12,6 @@ body {
 .content1 {
     display:flex;
     margin:30px 1px;
-    flex-wrap:wrap;
 }
 .content1 p {
     color: white;
