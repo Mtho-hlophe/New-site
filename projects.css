@@ -95,6 +95,7 @@ body {
 .content1 button{
     paddding:2px; 
     margin-left:50px
+    wrap:no-wrap:
 }
 .projectImages {
     width: 200px;
