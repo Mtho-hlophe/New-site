@@ -76,6 +76,7 @@ body {
 
 .content1 {
     margin:50px 1px;
+    flex-direction: column;
 }
 .content1 p {
     height:200px;
