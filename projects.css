@@ -28,6 +28,7 @@ body {
 }
 .projectTitles {
     padding: 0px 5px;
+    width: 100%;
 }
 .projectTitles h3 {
     font-size:2rem;
@@ -95,6 +96,7 @@ body {
 .content1 button{
     paddding:2px; 
     margin-left:50px;
+    width:100%;
 }
 .projectImages {
     width: 200px;
