@@ -24,7 +24,7 @@ body {
     padding: 10px;
     margin: 10px 0px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: black;
 }
 .projectTitles {
     padding: 0px 5px;
@@ -48,8 +48,8 @@ body {
 }
 .backButton {
     padding: 10px 10px;
-    background-color: blue;
-    color: azure;
+    background-color: white;
+    color: black;
     font-size:1.5rem;
     width: fit-content;
     border-radius:0px 5px 5px 5px ;
@@ -94,8 +94,7 @@ body {
 }
 .content1 button{
     paddding:2px; 
-    margin-left:50px
-    wrap:no-wrap:
+    margin-left:50px;
 }
 .projectImages {
     width: 200px;
