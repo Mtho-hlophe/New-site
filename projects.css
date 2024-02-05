@@ -81,7 +81,7 @@ body {
 }
 .content1 div {
     text-align: center;
-    
+    margin-left:15%;
 }
 .content1 p {
     height:200px;
@@ -102,7 +102,7 @@ body {
 }
 .content1 button{
     paddding:2px; 
-    
+    margin-left:20%;
     
 }
 .projectImages {
