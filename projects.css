@@ -81,6 +81,7 @@ body {
 }
 .content1 div {
     text-align: center;
+    margin-left:25px
 }
 .content1 p {
     height:200px;
