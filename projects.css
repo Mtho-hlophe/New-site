@@ -81,16 +81,16 @@ body {
 }
 .content1 div {
     text-align: center;
-    margin-left:25px
+    margin-left:100px
 }
 .content1 p {
     height:200px;
     width:200px;
-    margin-left:50px
+   
 }  
 .projectTitles {
     width: 200px;
-    margin-left:50px
+    
 }
 .projectTitles h3 {
     font-size:1.3rem;
@@ -102,13 +102,13 @@ body {
 }
 .content1 button{
     paddding:2px; 
-    margin-left:50px;
+    
     width:100%;
 }
 .projectImages {
     width: 200px;
     height:200px;
-    margin-left:50px;
+   
 }
 
 }
