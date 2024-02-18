@@ -208,7 +208,7 @@ h4{
 
 /* media queries for mobile phone*/
 
-@media all and ( max-width: 412px ) {
+@media all and ( max-width: 600px ) {
 
 #profile {
     width: 100px;
