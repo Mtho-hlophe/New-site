@@ -20,6 +20,10 @@
 ul a {
     text-decoration:none;
 }
+.header h2 {
+    padding: 15px;
+    font-size: 1.2rem;
+}
 #about {
     background: linear-gradient(to right, azure, azure);
     padding: 30px 20px;
@@ -110,6 +114,8 @@ img li:hover{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
     background-color: white;
+    width: 86%;
+    margin: 0px 7%;
     display: flex;
     margin-top: 40px;
     padding: 5px 10px 5px 70px;
@@ -209,6 +215,7 @@ h4{
 .imageParagraph {
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -359,6 +366,10 @@ ul{
     display: inline;
     right:7px;
     
+}
+.header h2 {
+    padding: 0px;
+    font-size: 1rem;
 }
     #about {
         display:block;
