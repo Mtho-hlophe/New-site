@@ -228,9 +228,9 @@ h4{
 #about1 {
     font-size: 1rem;
 }
- #about2 {
+#about2 {
     font-size: 1rem;
- }
+}
 .imageParagraph {
     display: flex;
     flex-direction: column;
