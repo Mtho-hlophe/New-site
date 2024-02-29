@@ -114,7 +114,7 @@ img li:hover{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
     background-color: white;
-    width: 86%;
+    
     margin: 0px 7%;
     display: flex;
     margin-top: 40px;
@@ -281,7 +281,7 @@ img li:hover{
 .content1{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
-    width:100%;
+    
     margin: 0px;
     display: flex;
     margin-top: 40px;
