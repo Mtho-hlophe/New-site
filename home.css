@@ -72,8 +72,8 @@ ul li{
     text-decoration-style: none;
     list-style-type: none;
     padding: 15px 20px;
-    background-color: beige; 
-    color: black;
+    background-color: rgba(40,40,40,.5); 
+    color: white;
     margin-left: 10px;
     border-radius: 5px;
     transition: .6s;
@@ -84,7 +84,7 @@ ul li:hover {
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #c7c6bf;
+    background-color: whitesmoke;
     color: black;
     margin: 10px 7px;
 }
