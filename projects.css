@@ -5,9 +5,7 @@
     font-family: 'Slabo 27px', serif;
 }
 body {
-    background-image: url('images - 2024-02-02T085423.858.jpeg');
-    background-size: cover;
-    background-position:center;
+    background-color: oldlace;
 }
 .content1 {
     display:flex;
