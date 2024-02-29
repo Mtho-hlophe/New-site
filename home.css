@@ -238,7 +238,6 @@ h4{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #c7c6bf;
     color: black;   
 }
 #copyright p{
@@ -275,7 +274,7 @@ img li:hover{
 .content1{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
-    background-color: beige;
+    
     display: flex;
     margin-top: 40px;
     padding-left: 20px;
@@ -344,7 +343,7 @@ ul li {
     width:175px;
     height:1.5rem;
     padding-left:125px;
-    background-color:beige;
+    
     color:black;
 }
 ul{
