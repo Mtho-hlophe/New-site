@@ -5,7 +5,7 @@
     font-family: 'Slabo 27px', serif;
 }
 body {
-    background-color: oldlace;
+    background-color: whitesmoke;
 }
 .content1 {
     display:flex;
@@ -46,9 +46,10 @@ body {
     padding:5px;
 }
 .backButton {
-    padding: 10px 10px;
+    padding: 12px 17px;
     background-color: white;
     color: black;
+    font-weight: 600;
     font-size:1.5rem;
     width: fit-content;
     border-radius:0px 5px 5px 5px ;
