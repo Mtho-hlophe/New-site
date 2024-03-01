@@ -112,7 +112,7 @@ img li:hover{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
     background-color: white;
-    
+    animation: intro 4s;
     margin: 0px 7%;
     display: flex;
     margin-top: 40px;
@@ -135,10 +135,6 @@ img li:hover{
 #mySkills{
     margin: 40px 0px 50px 46%;
 }
-#welcome{
-    margin: 40px 0px 40px 44%;
-    animation: intro 4s;
-}
 @keyframes intro{
     from{margin-bottom:40%;}
     to{margin-bottom:0px;}
@@ -153,16 +149,6 @@ img li:hover{
     margin-left: 0px;
     /*background-color:azure;
     border-radius:10px;*/
-}
-.footer{
-    width: 100%;
-    background-color: red;
-    color:white;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    position:fixed;
 }
 #copyright p{
     margin: 40px 0px 40px 41%;
