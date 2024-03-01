@@ -154,12 +154,13 @@ img li:hover{
     font-size: 0.8rem;
 }
 .social-links{
-    margin: 30px 0px 0px 44%;
+    text-align: center;
 }
 .social-links img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    margin: 10px;
 }
 
 h4{
