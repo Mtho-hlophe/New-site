@@ -110,7 +110,6 @@ img li:hover{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
     background-color: white;
-    
     margin: 0px 7%;
     display: flex;
     margin-top: 40px;
@@ -138,13 +137,13 @@ img li:hover{
     to{margin-bottom:0px;}
 }
 .skills img {
-    width: 90px;
+    width: 100px;
     height: 100px;
 }
 .skills{
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 100px;
     margin-left: 0px;
 }
 #copyright p{
