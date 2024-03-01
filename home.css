@@ -138,20 +138,20 @@ img li:hover{
     to{margin-bottom:0px;}
 }
 .skills img {
-    width: 90px;
-    height: 100px;
+    width: 70px;
+    height: 80px;
 }
 .skills{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     margin-left: 0px;
-    /*background-color:azure;
-    border-radius:10px;*/
 }
 #copyright p{
-    margin: 40px 0px 40px 41%;
+    text-align: center;
     color: grey;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-top: 15px;
 }
 .social-links{
     text-align: center;
@@ -160,23 +160,11 @@ img li:hover{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 0px 10px;
 }
-
-h4{
-    color: blue;
-    margin: 0px 0px 30px 18px;
-}
-#countdown {
-    font-size:3rem;
-    margin-left:38%;
-    color:red;
-}
-.launch {
-    font-size:3rem;
-    margin:50px 0px 50px 38%;
-    color:black;
-    font-weight:600;   
+h4 {
+    text-align: center;
+    margin-top: 30px;
 }
 #profile {
     width: 250px;
@@ -230,19 +218,6 @@ h4{
     justify-content: space-between;
     color: black;   
 }
-#copyright p{
-    margin: 40px 0px 40px 130px;
-    font-size: 0.5rem;
-    color: grey;
-}
-.social-links{
-    margin: 30px 0px 0px 150px;
-}
-.social-links img{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
 h4{
     color: blue;
     margin: 0px 0px 30px 0px;
@@ -263,7 +238,6 @@ img li:hover{
 .content1{
     font-family: 'Manrope', sans-serif;
     font-family: 'Slabo 27px', serif;
-    
     margin: 0px;
     display: flex;
     margin-top: 40px;
@@ -290,25 +264,12 @@ img li:hover{
 #mySkills{
     margin: 40px 0px 10px 140px;
 }
-#welcome{
-    margin: 40px 0px 40px 120px;
-    animation: introduction 4s;
-}
 .skills img {
     width: 60px;
     height: 60px;
 }
 .skills{
     margin-left: 10px;
-}
-.footer{
-    width: 100%;
-    background-color: red;
-    color:white;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-top: 20px;
 }
 #countdown {
     font-size:1.5rem;
