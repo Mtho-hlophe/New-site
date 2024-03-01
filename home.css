@@ -191,7 +191,7 @@ h4 {
 
 /* media queries for mobile phone*/
 
-@media all and ( max-width: 600px ) {
+@media all and ( max-width: 800px ) {
 
 #profile {
     width: 100px;
@@ -268,6 +268,9 @@ img li:hover{
     height: 60px;
 }
 .skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
     margin-left: 10px;
 }
 #countdown {
