@@ -7,6 +7,9 @@
 body {
     background-color: whitesmoke;
 }
+button {
+    cursor: pointer;
+}
 .content1 {
     display:flex;
     justify-content:space-between;
@@ -100,7 +103,7 @@ body {
     top:0;
 }
 .content1 button{
-    paddding:2px; 
+    padding:2px; 
     margin-left:24%;
     width: 100%;
     
