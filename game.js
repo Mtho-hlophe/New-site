@@ -1,4 +1,4 @@
-
+const nothing = 'nothing'
 const welcomeBanner = document.querySelector(".welcome")
 const content = document.querySelector('.container')
 const rules = document.querySelector('#rules')
